@@ -4,6 +4,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { TouchableOpacity, Image } from "react-native";
 import images from "../constants/images";
 import { StatusBar } from "react-native-web";
+import { router } from "expo-router";
 
 const Onboarding = () => {
   return (
@@ -36,11 +37,12 @@ const Onboarding = () => {
         <Text className="text-6xl font-primary  text-center ">
           Grab your food now
         </Text>
-        <TouchableOpacity className="bg-black p-4 rounded-full mx-4 ">
-          <Text className="text-white text-center font-primary text-2xl">
+        <TouchableOpacity onPress={()=>router.push('/login')} className="bg-black p-4 rounded-full mx-4 ">
+          <Text className="text-white text-center font-extrabold text-2xl">
             Get Started
           </Text>
         </TouchableOpacity>
+        
       </View>
       <StatusBar style="auto" />
     </View>
