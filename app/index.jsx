@@ -8,7 +8,7 @@ import { router } from "expo-router";
 
 const Onboarding = () => {
   return (
-    <View className="h-full bg-yellow-500">
+    <View className="h-full bg-[#facc15]">
       <View className="items-center my-4 relative ">
         <Image source={images.logo} className="w-48 h-48" />
         <View className="absolute right-0 top-0">

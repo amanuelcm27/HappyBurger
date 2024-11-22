@@ -38,7 +38,7 @@ const Login = () => {
               <SubmitButton
                 text="Login"
                 loading={loading}
-                handlePress={() => setLoading(!loading)}
+                handlePress={() => router.push("/home")}
                 textStyles="text-white text-2xl font-extrabold"
                 otherStyles={`bg-black mx-4 rounded-full p-4`}
               />
