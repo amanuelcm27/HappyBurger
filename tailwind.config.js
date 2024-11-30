@@ -6,6 +6,11 @@ module.exports = {
 
       fontFamily:{
         "primary": ["Jersey25"],
+        "mont-regular": ["MontserratRegular"],
+        "mont-bold": ["MontserratBold"],
+        "mont-light": ["MontserratLight"],
+        "mont-extrabold": ["MontserratExtraBold"],
+
       }
     },
   },

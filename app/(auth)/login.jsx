@@ -33,8 +33,8 @@ const Login = () => {
               </Text>
             </TouchableOpacity>
             <View>
-            <FormField label={"Email"} type="email" />
-            <FormField label={"Password"} type="password" />
+            <FormField containerStyle={`mx-4 p-4`} label={"Email"} type="email" />
+            <FormField containerStyle={`mx-4 p-4`} label={"Password"} type="password" />
               <SubmitButton
                 text="Login"
                 loading={loading}
