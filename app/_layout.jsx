@@ -13,8 +13,8 @@ import {
   faUtensils,
   faMagnifyingGlass,
   faClock,
-  faAnglesRight
-
+  faAnglesRight,
+  faCirclePlus,
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
@@ -27,7 +27,8 @@ library.add(
   faBagShopping,
   faMagnifyingGlass,
   faClock,
-  faAnglesRight
+  faAnglesRight,
+  faCirclePlus
 );
 
 SplashScreen.preventAutoHideAsync();

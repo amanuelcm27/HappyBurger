@@ -8,7 +8,7 @@ const FormField = ({ label, type , placeholder ,containerStyle , otherStyles , f
   const [showPassword, setShowPassword] = useState(false);
   return (
     <View className={`${containerStyle}`}>
-      <Text className="text-xl font-primary">{label}</Text>
+      {label && <Text className="text-xl font-mont-regular">{label}</Text>}
       <View className={`flex-row w-full h-16 border-2 ${otherStyles} p-2 items-center`}>
         <TextInput
           className="flex-1 text-black font-psemibold text-sm"

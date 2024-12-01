@@ -20,7 +20,7 @@ const TabLayout = () => {
       <Tabs.Screen
         name="menu"
         options={{
-          headerShown: true,
+          headerShown: false,
           tabBarIcon: ({ color , focused }) => (
             <TabIcon color={color} name="menu" iconName={"fa-utensils"}  focused={focused}/>
           ),

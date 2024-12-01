@@ -31,20 +31,20 @@ const register = () => {
           </TouchableOpacity>
 
           <View className=" ">
-            <FormField label={"Email"} type="email" />
-            <FormField label={"Password"} type="password" />
-            <FormField label={"Confirm password"} type="password" />
+            <FormField containerStyle={`mx-4 p-4`} label={"Email"} type="email" />
+            <FormField containerStyle={`mx-4 p-4`} label={"Password"} type="password" />
+            <FormField containerStyle={`mx-4 p-4`} label={"Confirm password"} type="password" />
 
             <SubmitButton
               text="Register"
               loading={loading}
               handlePress={() => setLoading(!loading)}
-              textStyles="text-white text-2xl font-extrabold"
+              textStyles="text-white text-2xl font-mont-bold"
               otherStyles="bg-black mx-4 rounded-full p-4 mt-4"
             />
           </View>
 
-          <Text className="text-center m-4 text-xl font-primary">
+          <Text className="text-center m-4 text-xl font-mont-regular">
             Already have an account?{" "}
             <Link href="/login" className="text-red-500">
               Login

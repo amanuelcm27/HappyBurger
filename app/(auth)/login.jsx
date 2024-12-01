@@ -39,11 +39,11 @@ const Login = () => {
                 text="Login"
                 loading={loading}
                 handlePress={() => router.push("/home")}
-                textStyles="text-white text-2xl font-extrabold"
+                textStyles="text-white text-2xl font-mont-bold"
                 otherStyles={`bg-black mx-4 rounded-full p-4`}
               />
             </View>
-            <Text className="text-center m-4 text-xl font-primary">
+            <Text className="text-center m-4 text-xl font-mont-regular">
               Don't have an account ?{" "}
               <Link href="/register" className="text-red-500 ">
                 Register

@@ -1,4 +1,4 @@
-import { View, Text ,Image } from "react-native";
+import { View, Text, Image, TouchableOpacity } from "react-native";
 import React from "react";
 import images from "../constants/images";
 import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
@@ -14,10 +14,16 @@ const MenuItem = () => {
         <View>
           <Text className="text-xl font-mont-bold">Special Burger</Text>
           <Text className="font-mont-regular">350 birr</Text>
+          
         </View>
-        <View className="flex-row ml-auto">
-          <FontAwesomeIcon icon={`fa-clock`} />
-          <Text className="font-mont-regular px-2">15min</Text>
+        <View className=" ml-auto">
+          <View className="flex-row mt-auto items-center">
+            <FontAwesomeIcon icon={`fa-clock`} size={14} />
+            <Text className="font-mont-light text-[14px] px-2">15min</Text>
+          </View>
+          <TouchableOpacity className="ml-auto">
+            <FontAwesomeIcon icon={`fa-circle-plus`} size={30} />
+          </TouchableOpacity>
         </View>
       </View>
     </View>
